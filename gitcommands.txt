@@ -1,0 +1,349 @@
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=input
+core.fscache=true
+core.symlinks=true
+core.usebuiltinfsmonitor=true
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.editor="D:\Microsoft VS Code\Code.exe" --wait
+user.name=den1s
+user.email=artemis0564@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ git config --global user.name "den1s"
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ git config --global user.email "artemis0564@gmail.com"
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ ansel/
+ AppData/
+'Application Data'@
+'Cisco Packet Tracer 7.3.1'/
+ Contacts/
+ Cookies@
+ Desktop/
+ dev/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ maxima/
+ Music/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+'Большаков Денис.ipynb'
+'главное меню'@
+'Мои документы'@
+ Шаблоны@
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ dir
+3D\ Objects
+ansel
+AppData
+Application\ Data
+Cisco\ Packet\ Tracer\ 7.3.1
+Contacts
+Cookies
+Desktop
+dev
+Documents
+Downloads
+Favorites
+IntelGraphicsProfiles
+Links
+Local\ Settings
+maxima
+Music
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+PrintHood
+PycharmProjects
+Recent
+Saved\ Games
+Searches
+SendTo
+Videos
+Большаков\ Денис.ipynb
+главное\ меню
+Мои\ документы
+Шаблоны
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ mkdir dev
+mkdir: cannot create directory ‘dev’: File exists
+
+User@DESKTOP-SFSA9JP MINGW64 ~ (master)
+$ cd dev
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev (master)
+$ ls
+first/
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev (master)
+$ mkdir first
+mkdir: cannot create directory ‘first’: File exists
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev (master)
+$ cd first/
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git init
+Initialized empty Git repository in C:/Users/User/dev/first/.git/
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+starting fsmonitor-daemon in 'C:/Users/User/dev/first'
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git add .
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git -am 'typo resolved'
+unknown option: -am
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git commit -am 'typo resolved'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git --graph --oneline --all
+unknown option: --graph
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git show  --graph --oneline --all
+fatal: cannot combine --no-walk with --graph
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git show
+fatal: your current branch 'master' does not have any commits yet
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git log --graph
+fatal: your current branch 'master' does not have any commits yet
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git log  --graph --oneline --all
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git log  --graph --oneline
+fatal: your current branch 'master' does not have any commits yet
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git branch lab0
+fatal: Not a valid object name: 'master'.
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git branch
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git checkout lab0
+error: pathspec 'lab0' did not match any file(s) known to git
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git commit -am 'lab0 first commit'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git checkout lab0
+error: pathspec 'lab0' did not match any file(s) known to git
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git commit -am 'h3 added'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git checkout lab0
+error: pathspec 'lab0' did not match any file(s) known to git
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git merge master
+merge: master - not something we can merge
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git commit -am 'merge with master'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git diff origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git diff
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git fetch
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+User@DESKTOP-SFSA9JP MINGW64 ~/dev/first (master)
+$
