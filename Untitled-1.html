@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Denis Bolshakov</title>
+    </head>
+    <body style="background-color:#F0FFF0;">
+        <h1>Резюме</h1>
+        <hr>
+        <h2> Меню</h2>
+
+        <ul>
+            <li><a href="#photo-id">Фотографія, ім'я та прізвище</a></li>
+            <li><a href="#education-id">Освіта</a></li>
+            <li><a href="#skills-id">Навички</a></li>
+            <li><a href="#contacts-id">Контакти</a></li>
+        </ul>
+
+        <hr>
+
+        <section id="photo-id" class="photo">
+        <h2>Фотографія, ім'я та прізвище</h2>
+            <p>Большаков Денис, 18 <br>Навчаюсь на кафедрі <abbr title="Мережевих та інформаційних технологій">МІТ</abbr></p>
+            <img src="C:\Users\User\Desktop\веб дизайн\лаб1\image\DSC_0102.jpg" width="250">
+            
+        <hr>
+        </section>
+
+        <section id="education-id" class="education">
+            <h2>Освіта</h2>
+            <ul>
+                <li><a href="http://fit.univ.kiev.ua/" target="_blank">Київський національний університет ім.Тараса Шевченка: 2020 - ...</a></li>
+                <img src="C:\Users\User\Desktop\веб дизайн\лаб1\image\download.jpg" width="100">
+                <li><a href="https://www.kcml.dp.ua/" target="_blank">Криворізький Центрально-міський ліцей: 2015-2020</a></li>
+                <img src="C:\Users\User\Desktop\веб дизайн\лаб1\image\download.png" width="100">
+                <li><a href="https://dp.isuo.org/ru/schools/view/id/2968" target="_blank">Криворізька загальноосвітня школа І-ІІІ ступенів №23: 2009-2015 </a></li>
+            </ul>
+        <hr>
+        </section>
+
+        <section id="skills-id" class="skills">
+        <h2><a href="C:\Users\User\Desktop\веб дизайн\лаб1\skills.html" target="_blank"> Навички</a></h2>
+        <ul>
+            <li>Комунікативні навички</li>
+            <li>Професійні навички</li>
+        </ul>
+        <hr>
+        </section>
+
+        <section id="contacts-id" class="contacts">
+        <h2>Контакти</h2>
+        <form action="process.php" method="POST">
+            <div>
+            <label>Ім'я</label>
+            <input type="text" name="first-name" placeholder="Введіть ваше ім'я">
+            </div>
+            <br>
+            <div>
+                <label>Вік</label>
+                <input type="number" name ="age"
+                value = "18">
+                
+            </div>
+            <br>
+            <div>
+                <label>Пошта</label>
+                <input type="email" name="email" placeholder="Введіть вашу пошту">
+                </div>
+        </form>
+        <hr>
+        </section>
+
+        <footer>
+            <p><small>Copyright &copy; CV of Denis Bolshakov, 2021</small></P>
+        </footer>
+        
+    </body>
+</html>
