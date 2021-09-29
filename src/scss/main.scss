@@ -1,0 +1,138 @@
+body{
+    background-color: #FFC4EF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color:#FF4ACD;
+    color: #FFFFFF;
+    border-radius: 25px;
+    
+    nav{
+        display: flex;
+        justify-content: left;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    h1{
+        padding-left: 100px;
+        padding-top: 25px;
+        padding-bottom:25px ;
+    }
+    img{
+        margin-left: 1050px;
+        padding-top: 25px;
+    }
+    ul{
+        li{
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+    span{
+        font-weight: bold;
+        color: black;
+        padding-top: 45px;
+    }
+    }
+}
+.showcase{
+    display: flex;
+    justify-content: space-between;
+
+    .image{
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        width: 18%;
+        img{
+            width: 200px;
+            height: 200px;
+            padding-top: 10px;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        h3{
+            padding-left: 65px;
+        }
+        h4{
+            padding-left: 90px;
+        }
+        a{
+            text-decoration: none;
+            text-transform: none;
+            color: black;
+            padding-left: 65px;
+        }
+        a:hover{
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+}
+footer{
+    margin-top: 180px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    font-size: 10px;
+}
+
+/*-----Cart-----*/
+
+.product-cart{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px ;
+    img{
+        font-size: 25px;
+        color:red;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+.header{
+    width: 100%;
+    display: flex;
+    border-bottom: 4px solid #FF4ACD ;
+}
+.title{
+    width: 45%;
+
+}
+.price{
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+}
+.total{
+
+    padding-left:300px ;
+    display: flex;
+    align-items: center;
+}
+.basketTotalContainer{
+    border-top:4px solid #FF4ACD ;
+    display: flex;
+    justify-content: left;
+}
+
+.basketTotal{
+    padding-left: 25px;
+}
+.purchase{
+    border-radius:50px;
+    background-color: #FF4ACD;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

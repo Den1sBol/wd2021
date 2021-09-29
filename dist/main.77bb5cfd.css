@@ -1,0 +1,68 @@
+body {
+  background-color: #FFC4EF;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #FF4ACD;
+  color: #FFFFFF;
+  border-radius: 25px;
+}
+.container span {
+  font-weight: bold;
+  color: black;
+}
+.container h1 {
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container img {
+  padding-left: 1050px;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase .image {
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 18%;
+}
+.showcase .image img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.showcase .image h3 {
+  padding-left: 65px;
+}
+.showcase .image h4 {
+  padding-left: 90px;
+}
+.showcase .image a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+  padding-left: 65px;
+}
+.showcase .image a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 180px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
