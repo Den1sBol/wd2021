@@ -1,0 +1,60 @@
+body {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  margin-top: 335px;
+  background-color: red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header {
+  color: white;
+  background-color: red;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.header h1 {
+  padding-left: 25px;
+}
+
+.body {
+  color: white;
+}
+.body h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sources {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sources .weather a {
+  text-decoration: none;
+  color: white;
+}
+.sources .weather a:hover {
+  color: red;
+}
+.sources .weather li {
+  list-style: none;
+}
+.sources .Internal li {
+  list-style: none;
+}
+.sources .Placeholder a {
+  text-decoration: none;
+  color: white;
+}
+.sources .Placeholder a:hover {
+  color: red;
+}
+.sources .Placeholder li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=/main.fb6bbcaf.css.map */

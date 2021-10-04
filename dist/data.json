@@ -1,0 +1,17 @@
+{
+    "person1":{
+        "name":"Ivan",
+        "age": 55,
+        "hobbies":"TV shows,gardening"
+        },
+    "person2":{
+        "name":"Maria",
+        "age": 13,
+        "hobbies":"paintings, dolls"
+        },
+    "person3":{
+        "name":"Vasyl",
+        "age": 30,
+        "hobbies":"car driving, basketball"
+        } 
+}

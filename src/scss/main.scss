@@ -1,0 +1,66 @@
+body{
+    background-color: green;
+    color: white;
+}
+footer{
+    margin-top: 335px;
+    background-color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header{
+    color: white;
+    background-color: red;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    h1{
+        padding-left: 25px;
+    }
+}
+
+.body{
+    color: white;
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.sources{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+
+    .weather{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: red;
+        }
+        li{
+            list-style: none;
+        }
+    }
+    
+    .Internal{
+        li{
+            list-style: none;
+        }
+    }
+    .Placeholder{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: red;
+        }
+        li{
+            list-style: none;
+        }
+    }
+}
